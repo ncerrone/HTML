@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.brand {
+	width: 100px;
+	color: rgba(255,255,255,1.00);
+	font-size: 22px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+
+}
+.menu {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,1.00);
+	line-height: 80px;
+	z-index: 1;
+	position: absolute;
+}
+.menu ul {
+	width: 960px;
+	background-color: rgba(255,255,255,1.00);
+	margin-left: auto;
+	height: 50px;
+}
+.menu ul li {
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	float: left;
+}
+.menu ul li a {
+	width: 100%;
+	height: 80px;
+	display: block;
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+	font-size: 22px;
+	background-color: rgba(0,0,0,1.00);
+}
+.menu a:hover,.menu .active{
+	background-color:rgba(255,255,255,1.00);color: rgba(0,0,0,1.00);
+}
+video {
+	width: 100%;
+	height: auto;
+	background-color: rgba(255,255,255,255);
+}
+.video {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto 100px;
+	padding: 0;
+}
+.bianco{
+	color: rgba(255,255,255,1.00);
+}
+.mt-30{
+	margin-top: 30px;
+}
+.container {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.micro {
+	width:50% ;
+	height:300px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	padding-right: 8px;
+}
+.micro2{
+	width:50%;
+	height:150px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.micro2_5{
+	width:50%;
+	height:150px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+img {
+	display: block;
+}
+.img-fluid {
+	width: 100%;
+	height: 100%;
+}
+
+
+.regola {
+	float: left;
+	margin: 20px 0 0 25%;
+	padding: 0;
+}
+.regola2 {
+	float: left;
+	margin: 16px 25% 0;
+	padding: 0px;
+}
+.regola3 {
+	width: 100%;
+	float: left;
+	margin: 16px 0 16px ;
+	padding: 0px;
+}
+.micro3 {
+	width:66.666% ;
+	height:150px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	padding-right: 8px;
+}
+.micro4 {
+	width:33.333% ;
+	height:150px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	padding-left: 8px;
+}
+.micro5_1 {
+	width:33.333% ;
+	height:250px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+}
+.micro5_2 {
+	width:33.333% ;
+	height:250px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	
+}
+.micro5_3 {
+	width:33.333% ;
+	height:250px;
+	background-color: rgba(255,255,255,1.00);
+	float:left;
+	
+}
+
+.img-fluid2 {
+	width: 100%;
+	height: 150px;
+}
+
+.img-fluid3 {
+	width: 100%;
+	height: 250px;
+}
+.footer {
+	margin-top: 16px;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+
+}
+.footer a {
+	text-align: center;
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+}
+.form-border {
+	margin-top: 860px;
+	border:1px solid #000;
+	padding-right: 20px;
+}
+.form-control {
+	padding: 10px;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	display: block;
+}
+
+.form-group label{
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	width: 33.333%;
+	height: 40px;
+	margin: 0 auto 10px;
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	padding-right: 10px;
+}
+.form-group input{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	width: 66.666%;
+	height: auto;
+	margin-bottom: 10px;
+	float: right;
+}
+::placeholder {
+	color: rgba(88,91,245,1.00);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.tabella td {
+	border:1px solid #000;
+	padding: 5px;
+}
+.tabella th {
+	border:1px solid #000;
+	padding: 5px;
+	font-weight: bold
+}
+.tabella {
+	width: 100%;
+	border:1px solid #000;
+}
+.tabella tr {
+	background-color: rgba(255,255,255,1.00);
+	border:1px solid #000;
+	padding: 5px;
+	text-align: left;
+}
+
+.tabella tr:nth-child(even) {
+	background-color:rgba(185,185,185,1.00);color: rgba(0,0,0,1.00);
+}
+.tabella tr:hover{
+	background-color:rgba(0,0,0,1.00);color: rgba(255,255,255,1.00);
+	cursor: wait;
+}

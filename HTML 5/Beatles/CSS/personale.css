@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+h1{color: rgba(177,39,41,1.00);}
+h2, h3{color: #1B0BEB;}
+.maiuscolo{
+	text-transform: uppercase
+}
+
+.giallo{
+	color: #F8FF00;
+}
+.rettangolo {
+	width:960px;
+	height:auto;
+	background-color: #9C0C0E;
+	margin: 0 auto 20px;
+	padding: 15px;
+}
+.rettangolo p{color: #FFFFFF;
+}
+.micro {
+	width:25% ;
+	height:auto;
+	background-color: #E97628;
+	float:left;
+	padding: 20px;
+}
+.clearfix {
+	clear: both;
+	
+}
+
+.img-fluid {
+	width:100%;
+	
+}
+.nome {
+	width:100%;
+	height:30px;
+	text-align: center;
+	background-color: #000000;color:#FFFFFF;
+	margin-top: 10px;
+	line-height: 30px;
+}
+img {
+	display: block;
+}
+.full-height {
+	width: 100%;
+	background-color: #000000;
+	height: calc(100vh - 50px);
+	background-image: url(../Img/imgBeatles.jpg);
+	background-size: cover;
+	background-position: center;
+	color:rgba(255,255,255,0.81);
+	text-align: center;
+	line-height: calc(100vh - 50px);
+	font-size: 8vh;
+}
+
+.menu{
+	widht: 100%;
+	height:50px;
+	background-color: rgba(0,0,0,1.00);
+}
